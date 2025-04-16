@@ -1,0 +1,25 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "main": "async_await.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "luxon": "^3.6.1",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0"
+  }
+}
